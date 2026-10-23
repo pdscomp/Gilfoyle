@@ -108,13 +108,23 @@ finding — a joke with nothing under it is noise, and he despises noise.
 
 ## Credit
 
-Forked from **[miqcie/gilfoyle](https://github.com/miqcie/gilfoyle)** at
-revision **`2b2d4e72e06be854a65cb9e29d2ba55dda7f56f4`** ("docs: recap portable
-core session and log papercuts (#21)"), authored by **Chris McConnell**
-(`mcconnell.chris@gmail.com`), MIT licensed. The review contract, the
-evidence-per-finding rule, the two-pass spec/quality split, the isolation
-guidance, and the voice are his. If you want the maintained original — CLI,
-schema, evaluations, wrappers — go to the upstream repository.
+Ported from and extended past **[miqcie/gilfoyle](https://github.com/miqcie/gilfoyle)**
+by **Chris McConnell** (`mcconnell.chris@gmail.com`), MIT licensed.
+
+The persona prompt, the six review lenses, the severity tiers, and the output
+format come from `gilfoyle-tech-reviewer.md` at commit
+**[`abed46f`](https://github.com/miqcie/gilfoyle/blob/abed46feeeafa088a6f90709c265cb1907ebb5fd/gilfoyle-tech-reviewer.md)**
+(2026-06-18, "fix: drop 'comprehensive/multi-perspective' framing for
+congruence (#2)"). That is the last revision of the file that resembles this
+skill; the project has since rewritten the reviewer into a canonical
+`SKILL.md` and removed `gilfoyle-tech-reviewer.md` from `main`, so the
+permalink is the only place the overlap is visible. We cloned at `master`
+HEAD `2b2d4e72` purely to keep provenance of the fork point; that snapshot
+shares no text with this skill.
+
+Everything else here is local: the scope-discovery ladder, whole-project and
+parity review, the pitfall playbooks, verification gates, and the delegated
+review rules.
 
 ## License
 
